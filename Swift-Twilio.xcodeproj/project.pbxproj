@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20FDAB320E234C70073E349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FDAB220E234C70073E349 /* AppDelegate.swift */; };
+		B20FDAB520E234C70073E349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FDAB420E234C70073E349 /* ViewController.swift */; };
+		B20FDAB820E234C70073E349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20FDAB620E234C70073E349 /* Main.storyboard */; };
+		B20FDABA20E234C80073E349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20FDAB920E234C80073E349 /* Assets.xcassets */; };
+		B20FDABD20E234C80073E349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20FDABB20E234C80073E349 /* LaunchScreen.storyboard */; };
+		B20FDAC820E234C80073E349 /* Swift_TwilioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FDAC720E234C80073E349 /* Swift_TwilioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20FDAC420E234C80073E349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20FDAA720E234C70073E349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20FDAAE20E234C70073E349;
+			remoteInfo = "Swift-Twilio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20FDAAF20E234C70073E349 /* Swift-Twilio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Twilio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20FDAB220E234C70073E349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B20FDAB420E234C70073E349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B20FDAB720E234C70073E349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B20FDAB920E234C80073E349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20FDABC20E234C80073E349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B20FDABE20E234C80073E349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20FDAC320E234C80073E349 /* Swift-TwilioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-TwilioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20FDAC720E234C80073E349 /* Swift_TwilioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TwilioTests.swift; sourceTree = "<group>"; };
+		B20FDAC920E234C80073E349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20FDAAC20E234C70073E349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20FDAC020E234C80073E349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20FDAA620E234C70073E349 = {
+			isa = PBXGroup;
+			children = (
+				B20FDAB120E234C70073E349 /* Swift-Twilio */,
+				B20FDAC620E234C80073E349 /* Swift-TwilioTests */,
+				B20FDAB020E234C70073E349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20FDAB020E234C70073E349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20FDAAF20E234C70073E349 /* Swift-Twilio.app */,
+				B20FDAC320E234C80073E349 /* Swift-TwilioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20FDAB120E234C70073E349 /* Swift-Twilio */ = {
+			isa = PBXGroup;
+			children = (
+				B20FDAB220E234C70073E349 /* AppDelegate.swift */,
+				B20FDAB420E234C70073E349 /* ViewController.swift */,
+				B20FDAB620E234C70073E349 /* Main.storyboard */,
+				B20FDAB920E234C80073E349 /* Assets.xcassets */,
+				B20FDABB20E234C80073E349 /* LaunchScreen.storyboard */,
+				B20FDABE20E234C80073E349 /* Info.plist */,
+			);
+			path = "Swift-Twilio";
+			sourceTree = "<group>";
+		};
+		B20FDAC620E234C80073E349 /* Swift-TwilioTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20FDAC720E234C80073E349 /* Swift_TwilioTests.swift */,
+				B20FDAC920E234C80073E349 /* Info.plist */,
+			);
+			path = "Swift-TwilioTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20FDAAE20E234C70073E349 /* Swift-Twilio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20FDACC20E234C80073E349 /* Build configuration list for PBXNativeTarget "Swift-Twilio" */;
+			buildPhases = (
+				B20FDAAB20E234C70073E349 /* Sources */,
+				B20FDAAC20E234C70073E349 /* Frameworks */,
+				B20FDAAD20E234C70073E349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Twilio";
+			productName = "Swift-Twilio";
+			productReference = B20FDAAF20E234C70073E349 /* Swift-Twilio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20FDAC220E234C80073E349 /* Swift-TwilioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20FDACF20E234C80073E349 /* Build configuration list for PBXNativeTarget "Swift-TwilioTests" */;
+			buildPhases = (
+				B20FDABF20E234C80073E349 /* Sources */,
+				B20FDAC020E234C80073E349 /* Frameworks */,
+				B20FDAC120E234C80073E349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20FDAC520E234C80073E349 /* PBXTargetDependency */,
+			);
+			name = "Swift-TwilioTests";
+			productName = "Swift-TwilioTests";
+			productReference = B20FDAC320E234C80073E349 /* Swift-TwilioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20FDAA720E234C70073E349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Charly Mannion";
+				TargetAttributes = {
+					B20FDAAE20E234C70073E349 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B20FDAC220E234C80073E349 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B20FDAAE20E234C70073E349;
+					};
+				};
+			};
+			buildConfigurationList = B20FDAAA20E234C70073E349 /* Build configuration list for PBXProject "Swift-Twilio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20FDAA620E234C70073E349;
+			productRefGroup = B20FDAB020E234C70073E349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20FDAAE20E234C70073E349 /* Swift-Twilio */,
+				B20FDAC220E234C80073E349 /* Swift-TwilioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20FDAAD20E234C70073E349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20FDABD20E234C80073E349 /* LaunchScreen.storyboard in Resources */,
+				B20FDABA20E234C80073E349 /* Assets.xcassets in Resources */,
+				B20FDAB820E234C70073E349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20FDAC120E234C80073E349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20FDAAB20E234C70073E349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20FDAB520E234C70073E349 /* ViewController.swift in Sources */,
+				B20FDAB320E234C70073E349 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20FDABF20E234C80073E349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20FDAC820E234C80073E349 /* Swift_TwilioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20FDAC520E234C80073E349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20FDAAE20E234C70073E349 /* Swift-Twilio */;
+			targetProxy = B20FDAC420E234C80073E349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20FDAB620E234C70073E349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20FDAB720E234C70073E349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B20FDABB20E234C80073E349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20FDABC20E234C80073E349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20FDACA20E234C80073E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20FDACB20E234C80073E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20FDACD20E234C80073E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Twilio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angelos.Swift-Twilio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20FDACE20E234C80073E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Twilio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angelos.Swift-Twilio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20FDAD020E234C80073E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-TwilioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angelos.Swift-TwilioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Twilio.app/Swift-Twilio";
+			};
+			name = Debug;
+		};
+		B20FDAD120E234C80073E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-TwilioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angelos.Swift-TwilioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Twilio.app/Swift-Twilio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20FDAAA20E234C70073E349 /* Build configuration list for PBXProject "Swift-Twilio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20FDACA20E234C80073E349 /* Debug */,
+				B20FDACB20E234C80073E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20FDACC20E234C80073E349 /* Build configuration list for PBXNativeTarget "Swift-Twilio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20FDACD20E234C80073E349 /* Debug */,
+				B20FDACE20E234C80073E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20FDACF20E234C80073E349 /* Build configuration list for PBXNativeTarget "Swift-TwilioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20FDAD020E234C80073E349 /* Debug */,
+				B20FDAD120E234C80073E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20FDAA720E234C70073E349 /* Project object */;
+}
